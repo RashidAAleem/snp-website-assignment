@@ -1,0 +1,368 @@
+/* style.css */
+
+body {
+    margin: 0;
+    font-family: Arial;
+    padding: 0;
+}
+
+.main {
+    background-color: #f5f5f5;
+    /* padding: 20px; */
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black; /* Adjust the color as per your preference */
+    padding: 10px 20px;
+}
+
+.logo {
+    height: 75px;
+    margin: auto; /* Pushes the logo to the left */
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: auto;
+}
+ul{
+    align-items: center;
+}
+.navbar ul li {
+    color: white;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.btn1{
+    border: 1px solid;
+    border-radius: 50px;
+    padding : 15px;
+   
+}
+
+.btn2{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid; */
+    border-radius: 50px;
+    padding : 15px;
+    background-color: red;
+    align-items: center;
+}
+.icon1{
+    font-size: 25px;
+    margin-left: 8px;
+    font-weight: bold;
+}
+.section1{
+    padding: 0;
+    margin: 0;
+}
+.section1 img {
+    width: 100%;
+    height: auto;
+    display: block; 
+    
+}
+.salt{
+    font-family: 'futurak';
+}
+
+.section2 {
+    padding: 20px;
+    
+    margin: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.section2_text {
+    text-align: center;
+}
+
+.section2_images {
+    /* width: 40%; */
+    
+    display: flex;
+    justify-content: center;
+    
+    /* align-items: center; */
+    margin-top: 20px; /* Add gap above images */
+}
+
+.section2_image {
+    
+    width: 175px; /* 3 images with gaps */
+    
+    height: auto; /* Maintain aspect ratio */
+    padding: 15px;
+    background-color: white;
+}
+
+
+
+
+
+.section2_images ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px; /* Add margin above the li */
+    text-align: center;
+}
+.section_image_gap {
+    margin: 0 10px; /* Adjust the gap between images */
+}
+.section2_images ul li {
+    
+    cursor: pointer;
+    color: white;
+}
+.btn3{
+    text-align: center;
+    display: block;
+    width: 174px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 500;
+    /* font-size: 14px; */
+    line-height: 50px;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: auto;
+    margin-top: 24px;
+    /* margin-left: 0; */
+}
+
+
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    /* padding-left: 150px; */
+    /* padding-right: 150px; */
+    background-color: #494848;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr; */
+    /* gap: 20px; */
+    /* padding: 20px; */
+    /* background-color: white; */
+    /* color: black; */
+}
+
+.section3_text {
+    background-color: #494848;
+
+    color: white;
+    text-align: center;
+    /* background-color: #f5f5f5; */
+    padding: 20px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.section3_col {
+    /* background-color: #f5f5f5; */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.franchise_info{
+    color: white;
+}
+.city {
+    color: red;
+    font-size: 16px;
+}
+
+
+.section4 {
+    padding: 20px;
+    
+    margin: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.section4_text {
+    text-align: center;
+}
+
+.section4_images {
+    /* width: 40%; */
+    
+    display: flex;
+    justify-content: center;
+    
+    /* align-items: center; */
+    margin-top: 20px; /* Add gap above images */
+}
+
+.section4_image {
+    
+    width: 190px; /* 3 images with gaps */
+    
+    height: 300; /* Maintain aspect ratio */
+    padding: 15px;
+    /* background-color: white; */
+}
+
+
+
+
+
+.section4_images ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px; /* Add margin above the li */
+    text-align: center;
+}
+.section_image_gap {
+    margin: 0 10px; /* Adjust the gap between images */
+}
+.section4_images ul li {
+    
+    cursor: pointer;
+    color: white;
+}
+.btn5{
+    text-align: center;
+    /* display: block; */
+    width: 120px;
+    height: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: auto;
+    margin-top: 24px;
+    /* margin-left: 0; */
+}
+.section_image_gap .salt{
+    font-weight:bold;
+}
+.section_image_gap > p{
+    font-size: 10px;
+    line-height: 10px;
+}
+
+.section6_images {
+    /* width: 40%; */
+   color: black;  
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    /* align-items: center; */
+    margin-top: 20px; /* Add gap above images */
+}
+
+.section6_image_gap {
+    margin: 10px;
+    align-items: center;
+    background-color: white;
+    width: 130px; /* 3 images with gaps */
+    /* border: 1px solid white; */
+    border-radius: 5px;
+    height: 190px; /* Maintain aspect ratio */
+    padding: 10px;
+    /* background-color: white; */
+}
+.section6_image_gap >i{
+    margin-top: 20px
+}
+.opening{
+    margin-top: 15px;
+    font-size: 8px;
+    color: red;
+}
+.section6_image_gap >span{
+    font-weight: bold;
+}
+.section7{
+    padding: 20px;
+    
+    margin: 0;
+    background-color: black;
+    color: white;
+    text-align: center;  
+}
+.grid_style{
+    display: flex;
+    
+}
+.section7_image{
+    width: 150px; /* 3 images with gaps */
+    
+    height: 150px; /* Maintain aspect ratio */
+    padding: 15px;
+    /* background-color: white; */
+}
+
+.footer{
+    background-color: rgb(16, 15, 15);
+    display: flex;
+    justify-content: center;
+    padding: 50px 40px 150px 50px;
+    color: white;
+    gap: 50px;
+    font-size: 12px;
+    line-height: 20px;
+    ;
+    
+}
+.intro{
+    width: 300px;
+}
+
+.footer_image{
+    width: 120px;
+    height: 50px;
+
+}
+.footer_end{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(197, 195, 195);
+    background-color: black;
+    color: white;
+font-size: 9px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.navbar_footer >ul{
+    list-style: none;
+    line-height: 30px;
+    width: 100px;
+}
+
+.contact{
+    /* width: 200px; */
+}
+.follow{
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+}
+.follow>div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    width: 70px
+}
+.follow>div>i{
+    gap;
+    
+}
