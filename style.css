@@ -301,7 +301,7 @@ ul{
 }
 .grid_style{
     display: flex;
-    
+    justify-content: space-around;
 }
 .section7_image{
     width: 150px; /* 3 images with gaps */
